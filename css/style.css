@@ -561,7 +561,7 @@ nav{
 
 .empresaFigure img{
     position: absolute;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%) !important;
     left: 50%;
     z-index: 90;
 }
@@ -586,7 +586,7 @@ nav{
 #aliados{
     
     background-image: url(../img/bg3.png);
-    background-position: center 100%;
+    background-position: 76% 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -634,6 +634,10 @@ nav{
     justify-content:center;
 }
 
+.textContacto{
+  padding-top: 10%;
+}
+
 .textContacto div p{
     font-family: "Acumin-Regular";
     font-weight: 200;
@@ -648,7 +652,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1% 0%;
+  
 }
 
 .textContacto span img{
@@ -662,7 +666,7 @@ nav{
 }
 
 .hda{
-    margin-top: 10% !important;
+    margin-top: 5% !important;
 }
 
 
